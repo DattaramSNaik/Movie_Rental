@@ -14,6 +14,7 @@ import { Provider } from "react-redux";
 import GenreForm from "./Component/Forms/GenreForm";
 import MovieForm from "./Component/Forms/MovieForm";
 import Error from "./Component/Routers/Error";
+
 import { store } from "./Component/Store";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -38,6 +39,7 @@ root.render(
           <Route path="genre/:genreId" element={<GenreForm />} />
           <Route path="genre/new" element={<GenreForm />} />
           <Route path="error" element={<Error />} />
+
           <Route
             path="*"
             element={

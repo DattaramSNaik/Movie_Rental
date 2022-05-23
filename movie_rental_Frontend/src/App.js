@@ -16,7 +16,6 @@ function App() {
   return (
     <div className="App">
       {token ? <Navbar /> : <UnAuthNav />}
-
       <Footer />
     </div>
   );

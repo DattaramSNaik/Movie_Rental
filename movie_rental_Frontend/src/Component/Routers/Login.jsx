@@ -40,7 +40,7 @@ const Login = () => {
   };
   return (
     <div>
-      <div className="font-sans">
+      <div className="font-sans" data-aos="zoom-in-down">
         <div className="relative min-h-screen flex flex-col sm:justify-center items-center m-5 ">
           <div className="relative sm:max-w-sm w-full" data-aos="flip-left">
             <div className="card bg-blue-400 shadow-lg  w-full h-full rounded-3xl absolute  transform -rotate-6"></div>
